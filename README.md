@@ -10,10 +10,12 @@ Hvad han vil have:  1. Kamera/dørspion, 2. Udluftning, 3. Auto tændpc, 4. auto
 4. Når han forlader sit hus skal lys slukke.  
 5. Han kan på alle tidspunkter checke om døren er låst.  
 
+
+
 ### 3 - Design your classes:
 Main.java  
 #### 1. Kamera/dørspion  
-BevægelsesSensor, KameraTænder, KameraOptag, KameraStream, SendBesked, GUI.   
+BevægelsesSensor, KameraTænder, KameraOptag, KameraStream, SendAlertMessageToUser, GUI.   
 
 #### 2. Udluftning  
 FugtighedsSensor, StyrArm(der åbner vindue), GUI(evt.), IsHumanHome.   
@@ -27,4 +29,12 @@ UserDistanceFromHome, SlukLys, SendAlertMessageToUser
 #### 5. Check om dør er låst.
 UserDistanceFromHome, SendAlertMessageToUser, LåsDør.
 
-### 4 -
+
+
+### 4 - Abstraction  and interfaces.  
+Sensor.java - 1,2  
+UserDistanceFromHome.java - 3,4,5  
+GUI.java(HTML/.js?) - 1,2  
+Sluk/Tænd.java - 4,3, (Måske LåsDør.java?)   
+SendAlertMessageToUser.java - 1,4,5  
+
