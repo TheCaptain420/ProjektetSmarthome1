@@ -11,5 +11,6 @@ Hvad han vil have:  1. Kamera/dørspion, 2. Udluftning, 3. Auto tændpc, 4. auto
 5. Han kan på alle tidspunkter checke om døren er låst.  
 
 ### 3 Design your classes:  
-
+#### 1. Kamera/dørspion  
+test
 
