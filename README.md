@@ -35,6 +35,6 @@ UserDistanceFromHome, SendAlertMessageToUser, LåsDør.
 Sensor.java - 1,2  
 UserDistanceFromHome.java - 3,4,5  
 GUI.java(HTML/.js?) - 1,2  
-Sluk/Tænd.java - 4,3, (Måske LåsDør.java?)   
+SlukElTænd.java - 4,3, (Måske LåsDør.java?)   
 SendAlertMessageToUser.java - 1,4,5  
 
